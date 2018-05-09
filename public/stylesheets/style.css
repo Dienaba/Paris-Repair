@@ -3,12 +3,47 @@ body {
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
 }
 
-a {
-  color: #00B7FF;
+.content {
+  margin-top: 25px;
+  border: 1px black solid;
+  width: 300px;
+  height: 300px;
 }
 
-.content {
+.partieH {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  height: 20%;
+}
+
+.partieM{
+  border: 1px green solid;
+  width: 100%;
+  height: 70%;
+}
+
+.partieM:hover {
+  opacity: 1;
+}
+
+.partieF {
+  width: 100%;
+  height: 10%;
+}
+
+.calendar {
+  text-align: center;
+  width: 25%;
+  height: 100%;
   border: 1px black solid;
-  width: 40px;
-  height: 40px;
+}
+
+.logo {
+  height: 100%;
+  width: 100%;
+}
+
+.general {
+  display: none;
 }
