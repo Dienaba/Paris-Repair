@@ -1,134 +1,53 @@
 extends layout
 
 block content
-  img(class="logo", src="images/logo.png")
+  div(class="header")
+    img(class="logo", src="images/testlog.png")
 
-  div(class="explication")
-    h1 Description 
-    h3 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc efficitur felis non eros facilisis gravida. Suspendisse mollis elit ante. Fusce nibh nibh, consectetur id tincidunt nec, hendrerit quis massa. 
-  
-  a(href='http://localhost:3000/aspirateur')
-    div
-      img(class='picto',src="images/electromenager.gif")
-  div(class="general")
-    p Agenda
-    input(type='month')
+  div(class="main")
+    div(class="partieUne")
+      h3 Belleville Repair
+    
+    div(class="partieDeux")
+      div(class="row") 
+        div(class="col s3") 
+          a(href='/agenda')
+            img(class='picto',src="https://thumbs.dreamstime.com/b/ensemble-color%C3%A9-d-ic-ne-d-appareil-%C3%A9lectrom%C3%A9nager-42634378.jpg")
+        div(class="col s3") 
+          a(href='/agenda')
+            img(class='picto',src="https://thumbs.dreamstime.com/b/ensemble-color%C3%A9-d-ic-ne-d-appareil-%C3%A9lectrom%C3%A9nager-42634378.jpg")
+        div(class="col s3") 
+          a(href='/agenda')
+            img(class='picto',src="https://thumbs.dreamstime.com/b/ensemble-color%C3%A9-d-ic-ne-d-appareil-%C3%A9lectrom%C3%A9nager-42634378.jpg")
+        div(class="col s3") 
+          a(href='/agenda')
+            img(class='picto',src="https://thumbs.dreamstime.com/b/ensemble-color%C3%A9-d-ic-ne-d-appareil-%C3%A9lectrom%C3%A9nager-42634378.jpg")
+      div(class="row")  
+        div(class="col s3") 
+          a(href='/agenda')
+            img(class='picto',src="https://thumbs.dreamstime.com/b/ensemble-color%C3%A9-d-ic-ne-d-appareil-%C3%A9lectrom%C3%A9nager-42634378.jpg")
+        div(class="col s3") 
+          a(href='/agenda')
+            img(class='picto',src="https://thumbs.dreamstime.com/b/ensemble-color%C3%A9-d-ic-ne-d-appareil-%C3%A9lectrom%C3%A9nager-42634378.jpg")
+        div(class="col s3") 
+          a(href='/agenda')
+            img(class='picto',src="https://thumbs.dreamstime.com/b/ensemble-color%C3%A9-d-ic-ne-d-appareil-%C3%A9lectrom%C3%A9nager-42634378.jpg")
+        div(class="col s3") 
+          a(href='/agenda')
+            img(class='picto',src="https://thumbs.dreamstime.com/b/ensemble-color%C3%A9-d-ic-ne-d-appareil-%C3%A9lectrom%C3%A9nager-42634378.jpg")
+      div(class="row")  
+        div(class="col s3") 
+          a(href='/agenda')
+            img(class='picto',src="https://thumbs.dreamstime.com/b/ensemble-color%C3%A9-d-ic-ne-d-appareil-%C3%A9lectrom%C3%A9nager-42634378.jpg")  
+        div(class="col s3") 
+          a(href='/agenda')
+            img(class='picto',src="https://thumbs.dreamstime.com/b/ensemble-color%C3%A9-d-ic-ne-d-appareil-%C3%A9lectrom%C3%A9nager-42634378.jpg")
 
-    div(class="content")
-      div(class="partieH")
-        p Réparation d'électroménager
-        div(class="calendar") 
-          div Mai
-          div 9
-          div Lun
-      a(href='http://www.lapetiterockette.org/event/reparation-electromenager/?instance_id=14758', target="_blank")
-        div(class="partieM")
-          img(class='logo', src='https://cdn.pixabay.com/photo/2014/04/02/10/56/recycling-304974_960_720.png')
-      div(class="partieF")
-        p FOOTER
-
-    div(class="content")
-      div(class="partieH")
-        p Réparation Aspirateur
-        div(class="calendar") 
-          div Mai
-          div 31
-          div Lun
-      a(href='/benevole', target="_blank")
-        div(class="partieM")
-          img(class='logo',src='https://image.freepik.com/icones-gratuites/appareil-melangeur_318-42632.jpg')
-      div(class="partieF")
-        p FOOTER 
-  img(class='picto',src="images/informatique.png")
-  img(class='picto',src="images/mobilier.jpeg")
-  img(class='picto',src="images/velo.jpg")
-  div(class="general")
-    p Agenda
-    input(type='month')
-
-    div(class="content")
-     div(class="partieH")
-       p Réparation d'électroménager
-       div(class="calendar") 
-         div Mai
-         div 9
-         div Lun
-     a(href='http://www.lapetiterockette.org/event/reparation-electromenager/?instance_id=14758', target="_blank")
-       div(class="partieM")
-         img(class='logo', src='https://cdn.pixabay.com/photo/2014/04/02/10/56/recycling-304974_960_720.png')
-     div(class="partieF")
-       p FOOTER
-
-    div(class="content")
-     div(class="partieH")
-       p Réparation Aspirateur
-       div(class="calendar") 
-         div Mai
-         div 31
-         div Lun
-     a(href='/benevole', target="_blank")
-       div(class="partieM")
-         img(class='logo',src='https://image.freepik.com/icones-gratuites/appareil-melangeur_318-42632.jpg')
-     div(class="partieF")
-       p FOOTER 
-  img(class='picto',src="images/vetement.jpeg")
-
-  
-  div(class="general")
-    p Agenda
-    input(type='month')
-
-    div(class="content")
-     div(class="partieH")
-       p Réparation d'électroménager
-       div(class="calendar") 
-         div Mai
-         div 9
-         div Lun
-     a(href='http://www.lapetiterockette.org/event/reparation-electromenager/?instance_id=14758', target="_blank")
-       div(class="partieM")
-         img(class='logo', src='https://cdn.pixabay.com/photo/2014/04/02/10/56/recycling-304974_960_720.png')
-     div(class="partieF")
-       p FOOTER
-
-    div(class="content")
-     div(class="partieH")
-       p Réparation Aspirateur
-       div(class="calendar") 
-         div Mai
-         div 31
-         div Lun
-     a(href='/benevole', target="_blank")
-       div(class="partieM")
-         img(class='logo',src='https://image.freepik.com/icones-gratuites/appareil-melangeur_318-42632.jpg')
-     div(class="partieF")
-       p FOOTER 
-  
-  
-//- input(type='month')
-//- 
-//- div(class="content")
-//-  div(class="partieH")
-//-    p Réparation d'électroménager
-//-    div(class="calendar") 
-//-      div Mai
-//-      div 9
-//-      div Lun
-//-  a(href='http://www.lapetiterockette.org/event/reparation-electromenager/?instance_id=14758', target="_blank")
-//-    div(class="partieM")
-//-      img(src='https://cdn.pixabay.com/photo/2014/04/02/10/56/recycling-304974_960_720.png')
-//-  div(class="partieF")
-//-    p FOOTER
-//- 
-//- div(class="content")
-//-  div(class="partieH")
-//-    p Réparation Mixeur
-//-    div(class="calendar") 
-//-      div Mai
-//-      div 31
-//-      div Lun
-//-  a(href='/benevole', target="_blank")
-//-    div(class="partieM")
-//-      img(src='https://image.freepik.com/icones-gratuites/appareil-melangeur_318-42632.jpg')
-//-  div(class="partieF")
-//-    p FOOTER  
+      footer   
+  footer
+    ul
+      li
+        a(href="#") Team
+      li
+        a(href="#") Privacy
+    p <b>Belleville Repair</b> <br> &copy; 2014, All Rights Reserved
