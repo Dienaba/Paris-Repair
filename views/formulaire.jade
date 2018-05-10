@@ -1,11 +1,29 @@
 extends layout
 
 block content
-  h1= title
-  
-  h1 formulaire d'inscription 
-  
-  form(name="newUser", method="POST")
-    input(type="text")
-    input(type="submit")
-  
+
+    img(class="logo", src="images/logo.png")
+    h2 Inscription Benevole
+    #container
+      form(name="add-estimation", method="post" )
+          div.input
+            span.label Nom
+            input(type="text", name="Nom" , required)
+          div.input
+            span.label Prenom
+            input(type="text", name="Prenom" , required) 
+          div.input
+            span.label Mail
+            input(type="email", required, name="Mail")
+          label(for="eclectromenage") Choisisez votre spécialité
+          select(id="eclectromenage" name="eclectromenager" , required)
+            option Frigo
+            option Micro-onde
+            option Robot
+            option Lave-Linge
+            option Aspirateur
+          div.input
+            span.label Disponibilité
+            input(type="text", name="Disponibilité" , required)                 
+          div.actions
+            input(type="submit", value="add")

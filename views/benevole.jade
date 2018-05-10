@@ -1,7 +1,27 @@
 extends layout
 
 block content
-  h1= title
-  
-  h1 Contact bénévole 
-  
+    img(class="logo", src="images/logo.png")
+    h2 Formulaire de contact
+    #container
+      form(name="add-estimation", method="post" , required)
+          div.input
+            span.label Nom
+            input(type="text", name="Nom")
+          div.input
+            span.label Prenom
+            input(type="text", name="Prenom" , required) 
+          div.input
+            span.label Numéro
+            input(type="tel", name="Numéro" , required , minlength="10" maxlength="10")
+          div.input
+            span.label Mail
+            input(type="email", required, name="Mail")
+          div.input
+            span.label Marque et model
+            input(type="text", name="Marque-et-Model" , required)                 
+          div.input
+            span.label Description du problème
+            textarea(name="description" , required)
+          div.actions
+            input(type="submit", value="add")

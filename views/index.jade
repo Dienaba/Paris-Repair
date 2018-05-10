@@ -7,17 +7,72 @@ block content
     h1 Description 
     h3 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc efficitur felis non eros facilisis gravida. Suspendisse mollis elit ante. Fusce nibh nibh, consectetur id tincidunt nec, hendrerit quis massa. 
   
-  img(class='aspirateur',src="images/aspirateur.jpg") 
-  img(class='',src="images/bouilloire.jpg")
-  img(class='',src="images/cafetiere.jpg")
-  img(class='',src="images/fer.jpg")
-  img(class='',src="images/four.jpg")
-  img(class='',src="images/lave-vaiselle.jpg")
-  img(class='',src="images/micro-onde.jpg")
-  img(class='',src="images/mixeur.jpg")
-  img(class='',src="images/seche-cheveux.jpg")
-  img(class='',src="images/tele.jpg")
-  img(class='',src="images/ventilateur.jpg")
+  a(href='http://localhost:3000/aspirateur')
+    div
+      img(class='picto',src="images/electromenager.gif")
+  div(class="general")
+    p Agenda
+    input(type='month')
+
+    div(class="content")
+      div(class="partieH")
+        p Réparation d'électroménager
+        div(class="calendar") 
+          div Mai
+          div 9
+          div Lun
+      a(href='http://www.lapetiterockette.org/event/reparation-electromenager/?instance_id=14758', target="_blank")
+        div(class="partieM")
+          img(class='logo', src='https://cdn.pixabay.com/photo/2014/04/02/10/56/recycling-304974_960_720.png')
+      div(class="partieF")
+        p FOOTER
+
+    div(class="content")
+      div(class="partieH")
+        p Réparation Aspirateur
+        div(class="calendar") 
+          div Mai
+          div 31
+          div Lun
+      a(href='/benevole', target="_blank")
+        div(class="partieM")
+          img(class='logo',src='https://image.freepik.com/icones-gratuites/appareil-melangeur_318-42632.jpg')
+      div(class="partieF")
+        p FOOTER 
+  img(class='picto',src="images/informatique.png")
+  img(class='picto',src="images/mobilier.jpeg")
+  img(class='picto',src="images/velo.jpg")
+  div(class="general")
+    p Agenda
+    input(type='month')
+
+    div(class="content")
+     div(class="partieH")
+       p Réparation d'électroménager
+       div(class="calendar") 
+         div Mai
+         div 9
+         div Lun
+     a(href='http://www.lapetiterockette.org/event/reparation-electromenager/?instance_id=14758', target="_blank")
+       div(class="partieM")
+         img(class='logo', src='https://cdn.pixabay.com/photo/2014/04/02/10/56/recycling-304974_960_720.png')
+     div(class="partieF")
+       p FOOTER
+
+    div(class="content")
+     div(class="partieH")
+       p Réparation Aspirateur
+       div(class="calendar") 
+         div Mai
+         div 31
+         div Lun
+     a(href='/benevole', target="_blank")
+       div(class="partieM")
+         img(class='logo',src='https://image.freepik.com/icones-gratuites/appareil-melangeur_318-42632.jpg')
+     div(class="partieF")
+       p FOOTER 
+  img(class='picto',src="images/vetement.jpeg")
+
   
   div(class="general")
     p Agenda

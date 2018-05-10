@@ -3,10 +3,14 @@ var express = require('express');
 var path = require('path');
 var cookieParser = require('cookie-parser');
 var logger = require('morgan');
+var MongoClient = require("mongodb").MongoClient;
+var Mongoose = require ("mongoose");
 
 var indexRouter = require('./routes/index');
 var formulaire = require('./routes/formulaire');
 var benevole = require('./routes/benevole');
+var agenda = require('./routes/agenda');
+
 
 
 var app = express();
@@ -24,7 +28,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.use('/', indexRouter);
 app.use('/formulaire', formulaire);
 app.use('/benevole', benevole);
-
+app.use('/agenda', agenda);
 
 
 // catch 404 and forward to error handler
