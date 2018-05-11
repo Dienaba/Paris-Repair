@@ -13,6 +13,9 @@ body {
 }
 .partieUne {
   width: 50%;
+  background-color: #E5ABAB;
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
 
 .partieDeux {
@@ -20,16 +23,6 @@ body {
   justify-content: space-around;
   flex-wrap: wrap;
   width: 50%;
-}
-
-.bord {
-  border: 1px solid rgb(32, 87, 174);
-  box-shadow: 0 1px 3px rgba(255,255,255,0);
-  margin-left: 35px;
-  margin-top: 15px;
-  margin-bottom: 15px;
-  width: 300px;
-  height: 300px;
 }
 
 .mail{
@@ -45,6 +38,11 @@ font-size: 30px;
   width: 150px;
 }
 
+
+.bord{
+  border: 1px solid black;
+  margin: 15px;
+}
 .partieH {
   display: flex;
   justify-content: space-around;
@@ -73,11 +71,6 @@ font-size: 30px;
 
 .generald input {
   margin-left: 65px;
-}
-
-.photo {
-  height: 100%;
-  width: 100%;
 }
 
 .logo{
