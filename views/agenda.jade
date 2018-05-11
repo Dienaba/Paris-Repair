@@ -1,13 +1,21 @@
 extends layout
 
 block content
-  div(class="generald")
-    h1 AGENDA
-    input(type='month')
+  div(class='row')
+    div(class='col s12')
+      div(class='col s2')
+        a(href="/")
+          img(class="miniLogo", src="images/testlog.png")
+      div(class='col s8 titre')  
+        h1 AGENDA
     
-    div(class="espacement")
-      div(class="row")
-        div(class="col s3 bord") 
+  div(class="generald")
+    input(class='mois', type='month', value='2018-05')
+    
+    div(class="row espacement")
+      div(class="row margin")
+        div(class="col s2") 
+        div(class="col s2 bord") 
           div(class="partieH")
             p Réparation électroménager
             div(class="calendar") 
@@ -16,20 +24,20 @@ block content
               div Ven
           div(class="partieM")
             a(href='http://www.lapetiterockette.org/event/reparation-electromenager/?instance_id=14758', target="_blank")
-              img(class='photo', src='images/trockette.png')
+              img(class='photo', src='images/LPR.jpeg')
 
-        div(class="col s3 bord") 
+        div(class="col s2 bord") 
           div(class="partieH")
-            p Réparation electromenager (Particulier) 
+            p Réparation electromenager (Jean DUPOND) 
             div(class="calendar") 
               div Mai
-              div 31
-              div Jeu
+              div 19
+              div Sam
           div(class="partieM")
             a(href='/benevole', target="_blank")
-              img(class='photo', src='images/trockette.png')
+              img(class='photo', src='images/jean.jpg')
             
-        div(class="col s3 bord") 
+        div(class="col s2 bord") 
           div(class="partieH")
             p Réparation petit électroménager
             div(class="calendar") 
@@ -38,60 +46,71 @@ block content
               div Jours
           div(class="partieM")
             a(href='https://repaircafeparis.fr/', target="_blank")
-              img(class='photo', src='images/trockette.png')
+              img(class='photo', src='images/RPC.jpg')
             
-        div(class="col s3 bord") 
+        div(class="col s2 bord") 
           div(class="partieH")
-            p Réparation d'électroménager
+            p Réparation (Valérie DAMINO)
             div(class="calendar") 
               div Mai
               div 9
               div Lun
           div(class="partieM")
             a(href='http://www.lapetiterockette.org/event/reparation-electromenager/?instance_id=14758', target="_blank")
-              img(class='photo', src='images/trockette.png')
+              img(class='photo', src='images/Valerie.jpg')
+         
             
-      div(class="row")  
-        div(class="col s3 bord") 
+      div(class="row margin") 
+        div(class="col s2")  
+        div(class="col s2 bord") 
           div(class="partieH")
-            p Réparation d'électroménager
+            p Réparation (Amine AOUI)
             div(class="calendar") 
               div Mai
-              div 9
+              div 18
               div Lun
           div(class="partieM")
             a(href='http://www.lapetiterockette.org/event/reparation-electromenager/?instance_id=14758', target="_blank")
-              img(class='photo', src='images/trockette.png')
+              img(class='photo', src='images/amine.jpg')
 
-        div(class="col s3 bord") 
+        div(class="col s2 bord") 
           div(class="partieH")
-            p Réparation Aspirateur
+            p Réparation (Lucien BERTOLLI)
             div(class="calendar") 
               div Mai
-              div 31
-              div Lun
+              div 28
+              div Mar
           div(class="partieM")
             a(href='/benevole', target="_blank")
-              img(class='photo', src='images/trockette.png')
+              img(class='photo', src='images/Lucien.jpg')
 
-        div(class="col s3 bord") 
+        div(class="col s2 bord") 
           div(class="partieH")
-            p Réparation d'électroménager
+            p Réparation (Marin PROCUREUR)
             div(class="calendar") 
               div Mai
-              div 9
+              div 8
               div Lun
           div(class="partieM")
             a(href='http://www.lapetiterockette.org/event/reparation-electromenager/?instance_id=14758', target="_blank")
-              img(class='photo', src='images/trockette.png')
+              img(class='photo', src='images/marin.jpg')
 
-        div(class="col s3 bord") 
+        div(class="col s2 bord") 
           div(class="partieH")
-            p Réparation d'électroménager
+            p Réparation (Manu MACRON)
             div(class="calendar") 
               div Mai
-              div 9
+              div 29
               div Lun
           div(class="partieM")
             a(href='http://www.lapetiterockette.org/event/reparation-electromenager/?instance_id=14758', target="_blank")
-              img(class='photo', src='images/trockette.png')
+              img(class='photo', src='images/manu.jpg')
+              
+  footer
+    ul
+      li
+        a(href="#") Team
+      li
+        a(href="#") Privacy
+    p <b>Belleville Repair</b> <br> &copy; 2014, All Rights Reserved
+  

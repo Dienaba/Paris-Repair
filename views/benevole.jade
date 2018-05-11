@@ -1,27 +1,41 @@
 extends layout
 
 block content
-    img(class="logoP", src="images/logo.png")
-    h2 Formulaire de contact
-    #container
-      form(name="add-estimation", method="post" , required)
-          div.input
-            span.label Nom
-            input(type="text", name="Nom")
-          div.input
-            span.label Prenom
-            input(type="text", name="Prenom" , required) 
-          div.input
-            span.label Numéro
-            input(type="tel", name="Numéro" , required , minlength="10" maxlength="10")
-          div.input
-            span.label Mail
-            input(type="email", required, name="Mail")
-          div.input
-            span.label Marque et model
-            input(type="text", name="Marque-et-Model" , required)                 
-          div.input
-            span.label Description du problème
-            textarea(name="description" , required)
-          div.actions
-            input(type="submit", value="add")
+  div(class='row')
+    div(class='col s12')
+      div(class='col s2')
+        a(href="/")
+          img(class="miniLogo", src="images/testlog.png")
+      div(class='col s8 titre')  
+        h1 FORMULAIRE
+  div(class='container')
+    form(name="add-estimation", method="post" , required)
+        div.input
+          span.label Nom
+          input(type="text", name="Nom")
+        div.input
+          span.label Prénom
+          input(type="text", name="Prenom" , required) 
+        div.input
+          span.label Numéro
+          input(type="tel", name="Numéro" , required , minlength="10" maxlength="10")
+        div.input
+          span.label Mail
+          input(type="email", required, name="Mail")
+        div.input
+          span.label Marque et modèle
+          input(type="text", name="Marque-et-Model" , required)                 
+        div.input
+          span.label Description du problème
+          textarea(name="description" , required)
+        div.actions
+          input(type="submit", value="Valider")
+  footer
+    ul
+      li
+        a(href="#") Team
+      li
+        a(href="#") Privacy
+    p <b>Belleville Repair</b> <br> &copy; 2014, All Rights Reserved
+                      
+  
