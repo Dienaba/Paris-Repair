@@ -34,11 +34,15 @@ font-size: 30px;
 
 .picto {
   border-radius: 5px;
-  height: 150px;
-  width: 150px;
+  height: 100px;
+  width: 100px;
+   zoom:1;
+   box-shadow: 0 0 20px 0px #65656521;
 }
 
-
+.containpicto {
+  height: 360px;
+}
 .bord{
   border: 1px solid black;
   margin: 15px;
@@ -52,7 +56,9 @@ font-size: 30px;
 .partieH p {
   font-weight: bold;
 }
-
+.row {
+  padding-top: 3px;
+}
 .partieM{
   width: 100%;
   height: 80%;
@@ -107,7 +113,8 @@ display: flex;
 justify-content: space-around;
 color: white;
 font-size: 20px;
-height: 10%;
+height: auto;
+
 }
 
 footer p{
