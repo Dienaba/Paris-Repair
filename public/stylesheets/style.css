@@ -61,6 +61,7 @@ font-size: 30px;
 <<<<<<< HEAD
 .containpicto {
   height: 360px;
+}
 =======
 .espacement{
   margin-top: 5vh;
@@ -69,8 +70,6 @@ font-size: 30px;
 }
 .miniLogo{
   height: 10vh;
-
->>>>>>> 592b9b15b9f03aa1bcc635b2baf27f2056e6753f
 }
 .bord{
   border: 1px solid white;
@@ -148,14 +147,9 @@ background-color: #606060;
 display: flex;
 justify-content: space-around;
 color: white;
-<<<<<<< HEAD
 font-size: 20px;
 height: auto;
 
-=======
-font-size: 15px;
-height: 10%;
->>>>>>> 592b9b15b9f03aa1bcc635b2baf27f2056e6753f
 }
 
 footer p{
