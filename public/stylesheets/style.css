@@ -55,12 +55,13 @@ font-size: 30px;
   height: 100px;
   width: 100px;
    zoom:1;
-   box-shadow: 0 0 20px 0px #65656521;
+   box-shadow: 0 0 20px 0px #585858;
 }
 
 <<<<<<< HEAD
 .containpicto {
   height: 360px;
+  padding-top: 2px;
 }
 =======
 .espacement{
@@ -90,7 +91,7 @@ font-size: 30px;
   font-weight: bold;
 }
 .row {
-  padding-top: 3px;
+  margin-top: 20px;
 }
 .partieM{
   width: 100%;
