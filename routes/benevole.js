@@ -11,11 +11,11 @@ router.get('/', function(req, res, next) {
 
 router.post('/', function(req, res, next) {
   var message = {
-    "html": "<p>Bonjour,<br/> Mr Bilal est intéresser pour la réparation de sa le 16 Juin<br/> Pour le contacter voici son numer </p>",
+    "html": "<p>Bonjour,<br/> Marie est intéressée pour la répartion de sa machine à café, le Samedi 19 Mai<br/> Pour la contacter voici son numero : 0652067795</p>",
     "text": "Example text content",
-    "subject": "example subject",
+    "subject": "Prise de contact",
     "from_email": "dienaba@makesense.org",
-    "from_name": "Example Name",
+    "from_name": "BELLEVILLE REPAIR",
     "to": [{
       "email": "camara.dienaba@gmail.com",
       "name": "Belleville Repair",

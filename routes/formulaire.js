@@ -6,7 +6,7 @@ router.get('/', function(req, res, next) {
   res.render('formulaire', { title: 'Belleville Repair' });
 });
 router.post('/', function(req, res, next) {
-res.send('OK');
+  res.render('validation', { title: 'Belleville Repair' });
 });
 
 module.exports = router;
